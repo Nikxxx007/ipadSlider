@@ -1,0 +1,32 @@
+/* Bacterias images*/
+
+.bak {
+    position: absolute;
+}
+
+.bak1 {
+    top: 60px;
+    right: 215px;
+}
+
+.bak2 {
+    right: 45px;
+    top: 185px;
+    z-index: 2;
+}
+
+.bak3 {
+    left: 35px;
+    bottom: 165px;
+    z-index: -1;
+}
+
+.bak4 {
+    right: 250px;
+    bottom: -95px;
+}
+
+.sperm {
+    top: 185px;
+    right: 10px;
+}

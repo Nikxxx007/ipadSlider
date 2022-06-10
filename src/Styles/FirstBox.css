@@ -1,0 +1,65 @@
+.content {
+    max-width: 1024px;
+    padding: 30px 50px 20px 80px;
+
+}
+
+.content__container {
+}
+
+/* Header */
+.content__header {
+    display: flex;
+    height: 20px;
+
+    align-items: center;
+    font-size: 20px;
+    font-family: "Circe", sans-serif;
+    color: rgb(39, 39, 39);
+    text-transform: uppercase;
+}
+
+.header-text {
+    text-align: center;
+}
+
+.stick {
+    height: 25px;
+    margin-right: 25px;
+}
+
+.header-item {
+    height: 20px;
+    align-items: center;
+    text-align: center;
+    margin-right: 25px;
+}
+
+/* Main part */
+.content__greetings {
+    margin-top: 120px;
+
+    font-size: 27px;
+    font-family: "DIN Pro", sans-serif;
+    color: rgb(36, 36, 36);
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.content__main {
+    margin-top: 40px;
+}
+
+.content__main h1, img{
+    display: inline;
+}
+
+.content__main img {
+    margin-left: 50px;
+}
+
+/* Onpoint Logo */
+.content__logo {
+    position: absolute;
+    bottom: 20px;
+}
