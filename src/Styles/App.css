@@ -13,6 +13,14 @@ h1 {
     /*text-align: left;*/
     z-index: 6;
 }
+h2 {
+    font-size: 27px;
+    font-weight: 400;
+    font-family: "DIN Pro", sans-serif;
+    color: rgb(36, 36, 36);
+    text-transform: uppercase;
+    text-align: left;
+}
 
 .helo_txt {
     font-size: 10.734px;
