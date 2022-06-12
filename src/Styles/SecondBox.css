@@ -1,0 +1,73 @@
+.second-box {
+    padding-inline: 70px 44px;
+}
+
+.second-box__title {
+    padding-top: 168px;
+}
+
+.second-box__scroll {
+    padding-top: 15px;
+    margin-left: 48px;
+}
+
+.second-box__text {
+    padding: 30px;
+    overflow: scroll;
+    overflow-x: hidden;
+    display: inline-block;
+
+
+    float: left;
+    border-radius: 40px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2.723px 4.193px 116.25px 8.75px rgba(157, 185, 198, 0.39);
+    width: 775px;
+    max-height: 380px;
+    -webkit-overflow-scrolling: touch;
+}
+
+/*.second-box__text::-webkit-scrollbar {*/
+/*    width: 5px;*/
+/*}*/
+
+
+/*.second-box__text::-webkit-scrollbar-track {*/
+/*    width: 2px;*/
+/*    background-color: rgb(0, 0, 0);*/
+
+/*}*/
+
+/*.second-box__text::-webkit-scrollbar-thumb {*/
+/*    border-radius: 100px;*/
+/*    background: #df90b3;*/
+/*    box-shadow: inset 2px 2px 5px 0 rgb(207, 87, 141);*/
+/*}*/
+
+::-webkit-scrollbar,
+::-webkit-scrollbar-thumb,
+::-webkit-scrollbar-track {
+    width: 20px;
+    border: none;
+    background: transparent;
+}
+
+::-webkit-scrollbar-button,
+::-webkit-scrollbar-track-piece,
+::-webkit-scrollbar-corner,
+::-webkit-resizer {
+    display: none;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background-image: url('../Assets/SecondBox/scrollbar-thumb.png');
+    background-repeat: no-repeat;
+}
+
+::-webkit-scrollbar-track {
+    background-image: url("../Assets/SecondBox/scrollbar-trace.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    /*background-size: contain;*/
+}

@@ -1,16 +1,16 @@
 .content {
     max-width: 1024px;
-    padding: 30px 50px 20px 80px;
+    padding: 0 50px 20px 70px;
 
 }
 
 /* Main part */
 .content__greetings {
-    margin-top: 138px;
+    margin-top: 168px;
 }
 
 .content__main {
-    margin-top: 40px;
+    margin-top: 38px;
 }
 
 .content__main h1, img{
