@@ -12,6 +12,7 @@
     font-family: "Circe", sans-serif;
     color: rgb(39, 39, 39);
     text-transform: uppercase;
+    z-index: 10
 }
 
 .header-text {

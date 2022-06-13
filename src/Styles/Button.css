@@ -1,0 +1,21 @@
+/*Button style*/
+
+.btn-img {
+    height: 50px;
+}
+
+.button-container {
+    display: inline-flex;
+    background-color: rgb(255, 106, 159);
+    /*height: 80px;*/
+    /*width: 280px;*/
+    border-radius: 50px;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+}
+
+.button-container img, p {
+    display: inline;
+    padding-right: 15px;
+}

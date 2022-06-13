@@ -5,11 +5,11 @@
 
 h1 {
     font-size: 109px;
-    font-family: "Gilroy", sans-serif;
+    font-family: "Gilroy", serif;
     font-weight: 300;
     color: rgb(23, 23, 23);
     text-transform: uppercase;
-    line-height: 1.073;
+    /*line-height: 1.073;*/
     /*text-align: left;*/
     z-index: 6;
 }
@@ -30,3 +30,20 @@ p {
     z-index: 1;
 }
 
+h3 {
+    font-size: 18.674px;
+    font-family: "Gilroy", sans-serif;
+    color: rgb(140, 201, 232);
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+
+.background-img {
+    width: 3072px;
+    height: 768px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*z-index: -100;*/
+}

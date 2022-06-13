@@ -1,0 +1,33 @@
+/*.carousel-content {*/
+/*    display: inline-flex;*/
+/*    transition: all 250ms linear;*/
+/*    -ms-overflow-style: none;  !* hide scrollbar in IE and Edge *!*/
+/*}*/
+
+/*.carousel-content::-webkit-scrollbar, .carousel-content::-webkit-scrollbar {*/
+/*    display: none;*/
+/*}*/
+
+.main-container {
+    height: 768px;
+    width: 1024px;
+}
+
+.window {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.all-items-container {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    background-image: url("../Assets/BackgroudImage.png");
+    /*width: 3072px;*/
+    /*height: 768px;*/
+    /*background-position: center;*/
+    background-repeat: no-repeat;
+    /*background-size: cover;*/
+    transition: all 400ms linear;
+}

@@ -1,0 +1,59 @@
+.plate-background {
+    border-radius: 40px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2.723px 4.193px 116.25px 8.75px rgba(157, 185, 198, 0.39);
+    position: absolute;
+    right: 340px;
+    top: 420px;
+    width: 450px;
+    height: 255px;
+    z-index: 1;
+}
+
+.calendar-background {
+    border-radius: 40px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2.723px 4.193px 116.25px 8.75px rgba(157, 185, 198, 0.39);
+    position: absolute;
+    right: 60px;
+    top: 420px;
+    width: 240px;
+    height: 150px;
+    z-index: 1;
+}
+
+.bottle-img {
+    position: absolute;
+    bottom: -50px;
+    left: 50px;
+    z-index: 5;
+}
+
+
+.bubble1 {
+    position: absolute;
+    bottom: -80px;
+    left: 180px;
+    z-index: 6;
+}
+
+.bubble2 {
+    position: absolute;
+    left: 20px;
+    bottom: 100px;
+    z-index: 6;
+}
+
+.bubble3 {
+    position: absolute;
+    left: 10px;
+    bottom: 250px;
+    z-index: 6;
+}
+
+.bubble4 {
+    position: absolute;
+    left: 190px;
+    top: 200px;
+    z-index: 6;
+}

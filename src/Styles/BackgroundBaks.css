@@ -18,7 +18,7 @@
 .bak3 {
     left: 22px;
     bottom: 193px;
-    z-index: -1;
+    z-index: 1;
 }
 
 .bak4 {

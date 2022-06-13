@@ -1,4 +1,9 @@
 .second-box {
+    min-width: 1024px;
+    background: url("../Assets/image_part_002.jpg");
+}
+
+.second-box-wrapper {
     padding-inline: 70px 44px;
 }
 
@@ -13,7 +18,7 @@
 
 .second-box__text {
     padding: 30px;
-    overflow: scroll;
+    overflow: auto;
     overflow-x: hidden;
     display: inline-block;
 
@@ -44,6 +49,10 @@
 /*    box-shadow: inset 2px 2px 5px 0 rgb(207, 87, 141);*/
 /*}*/
 
+
+
+
+
 ::-webkit-scrollbar,
 ::-webkit-scrollbar-thumb,
 ::-webkit-scrollbar-track {
@@ -61,8 +70,7 @@
 
 
 ::-webkit-scrollbar-thumb {
-    background-image: url('../Assets/SecondBox/scrollbar-thumb.png');
-    background-repeat: no-repeat;
+
 }
 
 ::-webkit-scrollbar-track {
@@ -70,4 +78,26 @@
     background-position: center;
     background-repeat: no-repeat;
     /*background-size: contain;*/
+}
+
+/* SCROLLBAR */
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgb(0,0,0);
+    border: 7px solid transparent;
+    background-clip: content-box;   /* THIS IS IMPORTANT */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background-color: rgb(207, 87, 141);
+    top: 1px;
+    width: 52px;
+    height: 219px;
+
 }

@@ -13,13 +13,15 @@ function SecondBox(props) {
     return (
         <>
             <div className="second-box">
-                <div className="second-box__title">
-                    <h2>Текст<br/>сообщения</h2>
-                </div>
-                <div className="second-box__scroll">
-                    <div className="second-box__text">
-                        {/* TODO finish scrollbar */}
-                        <Text />
+                <div className="second-box-wrapper">
+                    <div className="second-box__title">
+                        <h2>Текст<br/>сообщения</h2>
+                    </div>
+                    <div className="second-box__scroll">
+                        <div className="second-box__text">
+                            {/* TODO finish scrollbar */}
+                            <Text/>
+                        </div>
                     </div>
                 </div>
             </div>

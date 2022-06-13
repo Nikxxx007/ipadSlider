@@ -1,17 +1,14 @@
+import React from "react";
+
 import './Styles/App.css';
-import FirstBox from "./Components/FirstBox";
-import SecondBox from "./Components/SecondBox";
-import HomeButton from "./Components/HomeButton";
 import Logo from "./Components/Logo";
+import Carousel from "./Components/Carousel";
 
 function App() {
     return (
         <>
-            <HomeButton/>
-            {/*  carousel must be here*/}
-            {/*<FirstBox/>*/}
-            <SecondBox />
-            <Logo/>
+                <Carousel />
+                <Logo/>
         </>
     );
 }

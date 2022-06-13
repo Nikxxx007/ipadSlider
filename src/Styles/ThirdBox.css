@@ -1,0 +1,50 @@
+.third-box {
+    min-width: 1024px;
+    position: relative;
+    background: left url("../Assets/BackgroudImage.png");
+    background-position: right;
+}
+
+.third-box-wrapper {
+    padding-inline: 350px 60px;
+}
+
+.third-box__title {
+    margin-top: 170px;
+    text-align: left;
+}
+
+.third-box__title h1 {
+    position: relative;
+    left: -8px;
+    z-index: 6;
+}
+
+.third-box__content {
+    padding-top: 60px;
+}
+
+.third-box__columns {
+    display: flex;
+}
+
+.third-box__columns > * {
+    z-index: 3;
+}
+
+.third-box__plate-colum {
+    margin-right: 80px;
+}
+
+.third-box__calendar-box {
+    padding-left: 20px;
+}
+
+.calendar-btn {
+    margin-top: 55px;
+}
+
+.plate, .calender {
+    display: block;
+    margin-bottom: 20px;
+}

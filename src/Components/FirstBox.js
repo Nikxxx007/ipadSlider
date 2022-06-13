@@ -1,11 +1,11 @@
 import React, {useEffect} from 'react';
 import '../Styles/FirstBox.css';
 
-import Btn from '../Assets/FirstBox/btn.png';
 
 import BackgroundBaks from "./BackgroundBaks";
+import Button from "./Button";
 
-function FirstBox() {
+function FirstBox({click}) {
 
     useEffect(() => {
         document.body.style.overflow = "hidden";
@@ -20,7 +20,9 @@ function FirstBox() {
                     </div>
                     <div className="content__main">
                         <h1>Это <b>не</b> коммерческое задание</h1>
-                        <img src={Btn} alt={'btn'}/>
+                        <div className="content__img">
+                            <Button text={'Что дальше?'} click={click} print={'arrow'}/>
+                        </div>
                     </div>
                 </div>
                 <BackgroundBaks />

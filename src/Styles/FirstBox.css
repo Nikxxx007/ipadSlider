@@ -1,7 +1,10 @@
 .content {
-    max-width: 1024px;
-    padding: 0 50px 20px 70px;
+    min-width: 1024px;
+    position: relative;
+}
 
+.content__container {
+    padding: 0 50px 20px 70px;
 }
 
 /* Main part */
@@ -13,11 +16,13 @@
     margin-top: 38px;
 }
 
-.content__main h1, img{
-    display: inline;
+.content__img {
+    position: absolute;
+    right: 180px;
+    bottom: 170px;
 }
 
-.content__main img {
-    margin-left: 50px;
-}
+/*.content__img {*/
+/*    margin-left: 50px;*/
+/*}*/
 
