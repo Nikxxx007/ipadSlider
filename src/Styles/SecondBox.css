@@ -1,10 +1,12 @@
 .second-box {
     min-width: 1024px;
     background: url("../Assets/image_part_002.jpg");
+    position: relative;
 }
 
 .second-box-wrapper {
     padding-inline: 70px 44px;
+
 }
 
 .second-box__title {
@@ -12,7 +14,10 @@
 }
 
 .second-box__scroll {
+    position: relative;
+    z-index: 2;
     padding-top: 15px;
+    margin-top: 20px;
     margin-left: 48px;
 }
 
@@ -27,9 +32,10 @@
     border-radius: 40px;
     background-color: rgb(255, 255, 255);
     box-shadow: 2.723px 4.193px 116.25px 8.75px rgba(157, 185, 198, 0.39);
-    width: 775px;
-    max-height: 380px;
+    width: 730px;
+    max-height: 360px;
     -webkit-overflow-scrolling: touch;
+
 }
 
 ::-webkit-scrollbar,

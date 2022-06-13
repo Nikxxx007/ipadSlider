@@ -34,7 +34,7 @@ function Popup({ close }) {
                 </div>
                 <div className="popup__control">
                     <img onClick={() => handlePage(-1)} src={LeftButton} alt={'leftArrow'}/>
-                    <div className={ page === 0 ? 'circle-active' : 'popup__circle' }></div>
+                    <div className={'circle-active'}></div>
                     <div className={ page === 1 ? 'circle-active' : 'popup__circle' }></div>
                     <img onClick={() => handlePage(1)} src={RightButton} alt={'rightArrow'}/>
                 </div>
