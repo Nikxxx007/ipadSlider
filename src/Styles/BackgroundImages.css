@@ -57,3 +57,22 @@
     top: 200px;
     z-index: 6;
 }
+
+.bubble5 {
+    top: 360px;
+    left: 190px;
+    position: absolute;
+    z-index: 2;
+}
+
+.bubble6 {
+    top: 260px;
+    left: 80px;
+    position: absolute;
+}
+
+.bubble7 {
+    position: absolute;
+    top: 120px;
+    left: 200px;
+}

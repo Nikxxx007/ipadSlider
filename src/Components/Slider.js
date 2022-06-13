@@ -11,8 +11,10 @@ function Slider({ data }) {
                     Object.keys(data).map((index, id) => {
                         return (
                             <>
-                                <h3>{index}</h3>
-                                <p className={'slider-text'}>{data[index]}</p>
+                                <div key={id}>
+                                    <h3>{index}</h3>
+                                    <p className={'slider-text'}>{data[index]}</p>
+                                </div>
                             </>
                         );
                     })

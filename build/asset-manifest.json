@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a2b67bf5.css",
-    "main.js": "/static/js/main.9ba8dd59.js",
+    "main.css": "/static/css/main.2da323e1.css",
+    "main.js": "/static/js/main.bfa33198.js",
     "static/media/BackgroudImage.png": "/static/media/BackgroudImage.f0d086d3ac8b72c23a03.png",
     "static/media/image_part_002.jpg": "/static/media/image_part_002.07539aea4c358e5f913c.jpg",
     "static/media/bottle.png": "/static/media/bottle.b1ab48101e02edb9ac5e.png",
@@ -14,16 +14,17 @@
     "static/media/Bak2.png": "/static/media/Bak2.a14d621a8deed67728e8.png",
     "static/media/Sperm2.png": "/static/media/Sperm2.5c5260192e1fa91f745f.png",
     "static/media/Sperm4.png": "/static/media/Sperm4.c6829b661d77e0e94936.png",
+    "static/media/bubble5.png": "/static/media/bubble5.decb8db54ca29bff07df.png",
     "static/media/Bak3.png": "/static/media/Bak3.8b03dca382558bf0ae8b.png",
     "static/media/Logo.svg": "/static/media/Logo.08c0994f5aa2b306b95b1df320c5631b.svg",
     "static/media/Home.svg": "/static/media/Home.03a5544d565022403987c0a4dbb24787.svg",
     "index.html": "/index.html",
     "static/media/Line.svg": "/static/media/Line.3316215725c67df4d404e6f732532d59.svg",
-    "main.a2b67bf5.css.map": "/static/css/main.a2b67bf5.css.map",
-    "main.9ba8dd59.js.map": "/static/js/main.9ba8dd59.js.map"
+    "main.2da323e1.css.map": "/static/css/main.2da323e1.css.map",
+    "main.bfa33198.js.map": "/static/js/main.bfa33198.js.map"
   },
   "entrypoints": [
-    "static/css/main.a2b67bf5.css",
-    "static/js/main.9ba8dd59.js"
+    "static/css/main.2da323e1.css",
+    "static/js/main.bfa33198.js"
   ]
 }
