@@ -19,7 +19,6 @@ function SecondBox(props) {
                     </div>
                     <div className="second-box__scroll">
                         <div className="second-box__text">
-                            {/* TODO finish scrollbar */}
                             <Text/>
                         </div>
                     </div>
