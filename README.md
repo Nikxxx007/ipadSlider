@@ -3,4 +3,5 @@
 Проект уже собран и находится [здесь](./build)
 
 
-![webpage-record (1) (1)](https://user-images.githubusercontent.com/56413002/174014478-90307b5d-fb46-469f-8ac4-229232eb1231.gif)
+
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/56413002/174015688-99a131d8-0003-4cf6-9189-f44a522b009e.gif)
